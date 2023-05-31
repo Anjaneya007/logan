@@ -4,9 +4,11 @@ const request=require("request");
 const https =require("https");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
+require('dotenv').config();
+
 
 mailchimp.setConfig({
-    apiKey: "d64fe3a05b0f2ae8eb7ec7a58b592b27-us14",
+    apiKey: process.env.KEY,
     server: "us14"
 })
 
@@ -93,7 +95,7 @@ app.listen(process.env.PORT ||3000,function(){
 
 
 // key:
-// d64fe3a05b0f2ae8eb7ec7a58b592b27-us14
+// 8009b3c1740567668e00957b0bb98ce4-us14
 
 // listID:
 // 18fec4f733
