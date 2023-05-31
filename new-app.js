@@ -6,7 +6,7 @@ const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 
 mailchimp.setConfig({
-    apiKey: "3f082aaafa0d4b051556ed71e13eb57a-us14",
+    apiKey: "d64fe3a05b0f2ae8eb7ec7a58b592b27-us14",
     server: "us14"
 })
 
@@ -89,7 +89,7 @@ app.listen(process.env.PORT ||3000,function(){
 
 
 // key:
-// 3f082aaafa0d4b051556ed71e13eb57a-us14
+// d64fe3a05b0f2ae8eb7ec7a58b592b27-us14
 
 // listID:
 // 18fec4f733

@@ -4,6 +4,8 @@
   "description": "",
   "main": "new-app.js",
   "scripts": {
+    "start": "node new-app.js",
+    "dev": "nodemon new-app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "varma",
