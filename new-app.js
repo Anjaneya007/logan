@@ -83,6 +83,10 @@ app.post("/failure",function(rep,res){
     res.redirect("/");
 })
 
+app.post("/success",function(rep,res){
+    res.redirect("/");
+})
+
 app.listen(process.env.PORT ||3000,function(){
     console.log("serever is running");
 });
